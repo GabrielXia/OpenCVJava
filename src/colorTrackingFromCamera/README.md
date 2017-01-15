@@ -1,7 +1,7 @@
 #colorTrackingFromCamera
 Code referenced from [opencv-java/getting-started](https://github.com/opencv-java/getting-started/tree/master/FXHelloCV/src/it/polito/elite/teaching/cv), 
 Here is an example of tracking a red book :
-![Example](/colorTrackingFromCamera/example.png)
+![Example](https://github.com/GabrielXia/OpenCVJava/blob/master/src/colorTrackingFromCamera/example.png)
 ##Files
 ###Main
 There are some initializes jobs to do, don't forget to load openCV library
