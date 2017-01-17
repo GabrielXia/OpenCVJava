@@ -1,5 +1,6 @@
 package colorTrackingFromCamera;
 
+import colorTrackingFromFile.ControllerFromFile;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -15,9 +16,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("colorTrackingFromCamera.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../colorTrackingFromFile/colorTrackingFromFile.fxml"));
             BorderPane root = (BorderPane) loader.load();
-            Controller controller = loader.getController();
+            ControllerFromFile controller = loader.getController();
 
 
             primaryStage.setTitle("ColorTracking");
